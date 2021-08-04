@@ -12,7 +12,7 @@ function setup() {
     poseNet.on('pose', gotPoses);
 }
 function draw() {
-    background('#8abceb');
+    background('#a6a6a6');
     document.getElementById("text_side").innerHTML = "Width And Height Of A Text Will Be = "+ difference +"px"; 
     fill('#006e30');
     stroke('#006e30');
